@@ -1,0 +1,281 @@
+body{
+   
+    width: 940px;
+    margin: 0 auto;
+    background-color: #e2cbff;
+
+}
+
+.menu {
+  background-color: #a17ad4;
+  background: linear-gradient(120deg, #9b66b4, #7121ae);
+  margin: 0 auto;
+  position: fixed;
+  width: 940px;
+  
+   
+    
+    
+   
+}
+
+.menu ul {
+    display: flex;
+    margin: 0 auto;
+    padding: 0px;
+
+}
+
+.menu li {
+    border : 2px solid rgb(71, 9, 153) ;
+    padding: 20px 25px;
+    margin:10px;
+   font-size: 1.4em;
+   text-align: center;
+   font-weight: bold;
+   border-radius: 10px 30px 30px 30px;
+   font-family: 'Playfair Display', serif; 
+  
+  
+     
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(71, 9, 153) ;
+    color: #FFF0F5;
+    
+
+}
+
+.menu ul :hover {
+    background-color: #a17ad4;;
+    border: 1px solid  #a17ad4 (35,128,108);
+    box-shadow: #FFF0F5;
+}
+
+
+.dadospessoais {
+    padding: 50px;
+    display: flex;
+    background-color: #9743be;
+    background: linear-gradient(120deg, #875ac1, #4f069d);
+
+}
+
+.dadospessoais h1 {
+    margin: 100px 40px;
+    font-size: 3em;
+    font-weight: bold;
+    color:#FFF0F5;
+}
+.dadospessoais h3 {
+    margin: 20px 40px;
+    font-size: 1.5em;
+    color:#FFF0F5;
+    
+}
+
+.dadospessoais p {
+    margin: 0 20px; 
+    font-size: 1.2em; 
+    color:#FFF0F5;
+}
+
+.dadospessoais p img{
+    width: 30px;
+    margin: 5px 0;
+}
+
+.dadospessoais a img {
+    width: 30px;
+    margin: 10px;
+    display: flex ;
+  
+   
+}
+
+.icone {
+    display: flex; 
+}
+
+.foto-perfil {   
+    margin: 100px 15px;
+    border-radius: 30000px;
+    border: 10px solid rgb(71, 9, 153) ;
+    width: 340px;
+    height: 340px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+     
+}
+
+.linha hr {
+    margin: 0 auto;
+    padding: 5px 0px 5px 0px;
+    background-color: #4f069d;
+    width: 940px;
+}
+.sobremim {
+     background-color: #a17ad4;
+}
+
+.sobremim h1, .experiencias h1, .educacao h1, .habilidades h1, .interesses h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 2em;
+    color:#FFF0F5;
+    padding: 15px;
+}
+
+.sobremim img {
+    width: 50%;
+    padding: 25px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.sobremim p {
+    margin: 50px 0 0 0;
+    padding: 25px;
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFF0F5;
+}
+
+.sobremim .linha {
+    display: flex;
+    padding: 15px;
+} 
+
+.experiencias {
+    background-color: #a17ad4;
+}
+
+.experiencias div { 
+    background-color: #a17ad4;
+    display: flex;
+   
+}
+
+.experiencias p {
+    width: 40%;
+    background-color: rgb(71, 9, 153);
+    border: 2px solid rgb(71, 9, 153) ;
+    border-radius: 10px 30px 30px 30px;
+    padding: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFF0F5;
+    margin: 20px 0px 40px 20px; 
+
+}
+
+.educacao {
+    background-color: #a17ad4;
+    padding: 30px;
+}
+
+.educacao div {
+    background-color: #a17ad4;  
+    display: flex;
+}
+
+.educacao p {
+    width: 40%;
+    background-color: rgb(71, 9, 153);
+    border: 2px solid rgb(71, 9, 153) ;
+    border-radius: 10px 30px 30px 30px;
+    padding: 30px ;
+    text-align: center;
+    font-family:  Arial, Helvetica, sans-serif;
+    color:#FFF0F5;
+    margin: 40px 0px 40px 20px; 
+}
+
+.habilidades {
+    background-color: #a17ad4;  
+}
+
+.habilidades div {
+    background-color: #a17ad4;  
+    display: flex;
+}
+
+.habilidades p {
+    width: 40%;
+    background-color: rgb(71, 9, 153);
+    border: 2px solid rgb(71, 9, 153) ;
+    border-radius: 10px 30px 30px 30px;
+    padding: 30px;
+    text-align: center;
+    font-family:  Arial, Helvetica, sans-serif;
+    color:#FFF0F5;
+    margin: 40px 0px 50px 20px;  
+}
+
+.interesses {
+    background-color: #a17ad4;    
+} 
+
+.interesses div {
+    background-color: #a17ad4;  
+    display: flex;
+}
+
+.interesses p {
+    width: 40%;
+    background-color: rgb(71, 9, 153);
+    border: 2px solid rgb(71, 9, 153) ;
+    border-radius: 10px 30px 30px 30px;
+    padding: 30px;
+    text-align: center;
+    font-family:  Arial, Helvetica, sans-serif;
+    color:#FFF0F5;
+    margin: 40px 0px 50px 20px; 
+}
+
+.rodape {
+    width: 940px;
+    padding: 50px 0; 
+    background: linear-gradient(120deg, #875ac1, #4f069d); 
+} 
+
+.rodape p { 
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #a17ad4;
+    width: 50%;
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: 200px;
+    color: #FFF0F5;  
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.rodape :hover a {
+    background-color: rgb(71, 9, 153);
+}
+.rodape a {
+    color: #FFF0F5;
+    text-decoration: none;
+   
+}
+
+
+.rodape div p {
+    margin: 10px auto;
+    padding-right: 50px;
+    background: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+   
+}
+/*celular*/
+@media screen {
+    menu li {
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+}
+
+ 
